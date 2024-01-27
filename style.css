@@ -35,7 +35,7 @@ p {
     padding-left: 25px;
     padding-right: 25px;
 }
-.home {
+.row {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -83,6 +83,28 @@ p {
     text-align: center;
     margin:20px 0;
 }
+.product {
+    max-width: 1080px;
+    margin:auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-2{
+    flex-basis:25%;
+    padding:50px;
+    min-width: 300px;
+    margin-bottom: 50px;
+    transition:transform 0.5s;
+}
+.col-2 img{
+    width: 150%;
+
+}
+.col-2:hover {
+    transform:translateY(-5px);
+}
+
+
 
 
 
