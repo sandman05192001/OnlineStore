@@ -29,6 +29,10 @@ a {
 p {
     color:#555;
 }
+.about{
+    text-align: center;
+    font-size: 30px;
+}
 .container {
     max-width: 1300px;
     margin:auto;
@@ -59,20 +63,14 @@ p {
     line-height:62px;
     margin: 25px 0;
 }
-.about {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 100px;
-}
+
 
 .staff img {
     max-width: 100%;
     padding: 10px 0;
 
 }
-.staff h2{
+.staff h3{
     text-align: center;
     font-size: 30px;
 
@@ -83,7 +81,7 @@ p {
     text-align: center;
     margin:20px 0;
 }
-.product {
+.smallprod {
     max-width: 1080px;
     margin:auto;
     padding-left: 25px;
@@ -102,6 +100,30 @@ p {
 }
 .col-2:hover {
     transform:translateY(-5px);
+}
+
+.title {
+    
+    text-align:center;
+    margin:0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    font-size:30px;
+
+}
+
+.small-con{
+    max-width: 1080px;
+    margin:auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.promo {
+    margin-top: 80px;
+    padding:30px 0;
+}
+.col .promo-img{
+    padding:50px;
 }
 
 
