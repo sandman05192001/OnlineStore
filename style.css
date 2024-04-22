@@ -119,15 +119,15 @@ p {
 }
 .contact {
     display: flex;
-    justify-content: center; /* Horizontally center the flex items */
-    align-items: center; /* Vertically center the flex items */
-    flex-wrap: wrap; /* Allow items to wrap onto new lines if necessary */
-    text-align: center; /* Align text within each box to center */
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    text-align: center; 
 }
 
 .box {
-    flex: 1 1 300px; /* Set flex properties to control width of each box */
-    margin: 0 10px; /* Add some horizontal margin between boxes */
+    flex: 1 1 300px; 
+    margin: 0 10px; 
 }
 
 
